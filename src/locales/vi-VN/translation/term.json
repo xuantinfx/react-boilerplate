@@ -1,0 +1,63 @@
+{
+  "Gene": "Mã Gen",
+  "Land": "Khu Đất",
+  "MiningTool": "Dụng cụ đào",
+  "GachaBox": "Hộp Gacha",
+  "ToolMaterial": "Vật liệu công cụ",
+  "UserActivity": "Hoạt động",
+  "Rarity": "Độ hiếm",
+  "MiningPower": "Sức đào",
+  "Cooldown": "Hồi chiêu",
+  "Luck": "May mắn",
+  "Hybrid": "Hỗn hợp",
+  "Category": "Phân loại",
+  "Type": "Loại",
+  "Supply": "Nguồn cung",
+  "Supply.Unlimited": "Không giới hạn",
+
+  "Rarity.Legendary": "Truyền thuyết",
+  "Rarity.Epic": "Siêu hiếm",
+  "Rarity.Rare": "Hiếm",
+  "Rarity.Uncommon": "Khá hiếm",
+  "Rarity.Common": "Bình thường",
+
+  "SortType.ID_ASC": "Index Tăng dần",
+  "SortType.ID_DESC": "Index Giảm dần",
+  "SortType.PRICE_ASC": "Giá thấp",
+  "SortType.PRICE_DESC": "Giá cao",
+  "SortType.NEWEST": "Mới nhất",
+  "SortType.RARITY_ASC": "Độ hiếm tăng dần",
+  "SortType.RARITY_DESC": "Độ hiếm giảm dần",
+  "SortType.DEFAULT": "Mặc định",
+
+  "Auth.LogIn": "Đăng nhập",
+
+  "Marketplace": {
+    "FTCToken": "Mã FTC",
+    "MiningToolNFTToken": "Mã Mining Tool NFT",
+    "LandNFTToken": "Mã Land NFT",
+    "GeneNFTToken": "Mã Gene NFT",
+    "GachaNFTToken": "Mã Gacha NFT",
+    "ToolMaterialNFTToken": "Mã Tool Material NFT"
+  },
+
+
+  "Part": "Bộ phận",
+  "Part.Body": "Thân",
+  "Part.Sub": "Phụ",
+  "Part.Head": "Đầu",
+  "Part.LeftArm": "Tay Trái",
+  "Part.RightArm": "Tay Phải",
+
+  "GeneClass": "Lớp",
+  "GeneClass.Generic": "Chung",
+  "GeneClass.Crusader": "Quân thập tự",
+  "GeneClass.Wizard": "Phù thủy",
+  "GeneClass.Assassin": "Sát thủ",
+  "GeneClass.Saint": "Thánh",
+  "GeneClass.Shaman": "Pháp sư",
+
+  "Quantity": "Số lượng",
+  "Quantity.Shortened": "SL",
+  "Unknown": "Không xác định"
+}

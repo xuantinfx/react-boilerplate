@@ -1,0 +1,94 @@
+include:
+  - /ci/common/build.yml
+  - /ci/common/test.yml
+  - /ci/common/deploy.yml
+
+image: node:14.17.4
+
+cache:
+  paths:
+    - node_modules/
+
+stages:
+  - build
+  # - test
+  - deploy
+
+# test:
+#   stage: test
+#   extends: .test
+#   when: manual
+
+build-dev:
+  before_script:
+    - ENV_FILE=$ENV_FILE
+    - apt-get update -qq && apt-get install -y -qq zip
+  stage: build
+  extends: .build
+  environment:
+    name: development
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "development"'
+      when: on_success
+    - if: '$CI_PIPELINE_SOURCE == "push" && $CI_PIPELINE_SOURCE != "merge_request_event" && $CI_COMMIT_BRANCH !~ /development|uat|staging|master/'
+      when: manual
+      allow_failure: true
+build-uat:
+  before_script:
+    - ENV_FILE=$ENV_FILE
+    - apt-get update -qq && apt-get install -y -qq zip
+  stage: build
+  extends: .build
+  environment:
+    name: uat
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "uat"'
+      when: on_success
+    - if: '$CI_PIPELINE_SOURCE == "push" && $CI_PIPELINE_SOURCE != "merge_request_event" && $CI_COMMIT_BRANCH !~ /development|uat|staging|master/'
+      when: manual
+      allow_failure: true
+
+deploy-dev:
+  stage: deploy
+  needs:
+    - build-dev
+  before_script:
+    - PROCESS_NAME=marketplace-dev
+    - SSH_PRIVATE_KEY=$SSH_PRIVATE_KEY
+    - SSH_PORT=$SSH_PORT
+    - USER=$USER
+    - HOST=$HOST
+    - DEPLOY_DIR=$DEPLOY_DIR
+    - ENV_FILE=$ENV_FILE
+    - HT_ACCESS_PATH=$HT_ACCESS_PATH
+  extends: .deploy
+  environment:
+    name: development
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "development"'
+      when: on_success
+    - if: '$CI_PIPELINE_SOURCE == "push" && $CI_PIPELINE_SOURCE != "merge_request_event" && $CI_COMMIT_BRANCH !~ /development|uat|staging|master/'
+      when: manual
+      allow_failure: true
+deploy-uat:
+  stage: deploy
+  needs:
+    - build-uat
+  before_script:
+    - PROCESS_NAME=marketplace-uat
+    - SSH_PRIVATE_KEY=$SSH_PRIVATE_KEY
+    - SSH_PORT=$SSH_PORT
+    - USER=$USER
+    - HOST=$HOST
+    - DEPLOY_DIR=$DEPLOY_DIR
+    - ENV_FILE=$ENV_FILE
+    - HT_ACCESS_PATH=$HT_ACCESS_PATH
+  extends: .deploy
+  environment:
+    name: uat
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "uat"'
+      when: on_success
+    - if: '$CI_PIPELINE_SOURCE == "push" && $CI_PIPELINE_SOURCE != "merge_request_event" && $CI_COMMIT_BRANCH !~ /development|uat|staging|master/'
+      when: manual
+      allow_failure: true

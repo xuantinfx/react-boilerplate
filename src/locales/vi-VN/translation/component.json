@@ -1,0 +1,221 @@
+{
+  "MyAccountButton": {
+    "LinkButton": "Tài khoản của tôi"
+  },
+
+  "Filter": {
+    "Title": "Bộ lọc",
+    "SearchText": "Tìm kiếm...",
+    "ClearAll": "Xoá"
+  },
+
+  "Pagination": {
+    "Page": "Trang",
+    "Of": "trên",
+    "Previous": "Trang trước",
+    "Next": "Trang tiếp theo"
+  },
+
+  "MetaMaskConnectButton": {
+    "MainText": "Đăng nhập với MetaMask"
+  },
+  "UserActivity": {
+    "NoActivity": "Chưa có hoạt động nào",
+    "Header": {
+      "Time": "Thời gian",
+      "Type": "Loại",
+      "Item": "Vật phẩm",
+      "Action": "Hành động",
+      "Transaction": "Giao dịch"
+    },
+    "Label": {
+      "SaleAdded": "Đặt bán NFT",
+      "SalePriceChanged": "Cặp nhật giá",
+      "SaleCancel": "Hủy bán NFT",
+      "SaleDone": "Mua NFT",
+      "Approval": "Phê duyệt để đưa lên thị trường",
+      "Transfer": "Chuyển NFT",
+      "Unknown": "-"
+    }
+  },
+  "UserActivityList": {
+    "NoActivity": "Không tìm thấy hoạt động gần đây"
+  },
+  "NFTDetail": {
+    "OwnedBy": "Chủ sở hữu",
+    "Section.OpenOrders": "Đang mở bán",
+    "Section.About": "Thông tin chung",
+    "Section.Attributes": "Thuộc tính",
+    "Section.SaleHistories": "Lịch sử bán"
+  },
+
+  "BuyButton": {
+    "Buy": "Mua",
+    "BuyNow": "Mua Ngay"
+  },
+
+  "SellButton": {
+    "Sell": "Bán",
+    "SellNow": "Bán Ngay"
+  },
+
+  "CancelSellButton": {
+    "Cancel": "Huỷ bán",
+    "Canceling": "Đang huỷ bán",
+    "ConfirmCancelTitle": "Xác nhận",
+    "ConfirmCancelDescription": "Bạn có muốn huỷ lệnh bán này không?"
+  },
+
+  "UpdateSellPriceButton": {
+    "UpdatePrice": "Thay đổi giá",
+    "UpdatingPrice": "Đang cập nhật"
+  },
+
+  "PlaceOrderModal": {
+    "Title": "Bán Token",
+    "Description": "Bạn cần phải chấp thuận giao dịch {{token}} để tiếp tục.",
+    "AvailableForSale": "Số lượng có thể bán",
+    "Input": {
+      "TokenId": "Mã thông báo",
+      "Price": "Giá",
+      "Amount": "Số lượng"
+    },
+    "Holder": {
+      "TokenId": "Mã thông báo",
+      "Price": "Nhập giá bán",
+      "Amount": "Nhập số lượng"
+    },
+    "Error": {
+      "RequiredPrice": "Vui lòng nhập giá!",
+      "RequiredAmount": "Vui lòng nhập số lượng!",
+      "Price": "Giá bán cần lớn hơn 0!",
+      "MinPrice": "Giá bán phải lớn hơn hoặc bằng {{minPrice}}!",
+      "MaxPrice": "Giá bán phải nhỏ hơn hoặc bằng {{maxPrice}}!",
+      "MinAmount": "Số lượng cần nhập phải lớn hơn hoặc bằng {{min}}!",
+      "MaxAmount": "Số lượng cần nhập phải nhỏ hơn hoặc bằng {{max}}!"
+    },
+    "Button": {
+      "Max": "Tối đa",
+      "Confirm": "Xác nhận",
+      "Cancel": "Hủy"
+    }
+  },
+  "PurchaseConfirmationModal": {
+    "Title": "Mua ngay",
+    "Description": "Bạn cần phải chấp thuận giao dịch {{token}} để có thể tiếp tục."
+  },
+  "NFTList": {
+    "Message": {
+      "GachaBoxEmpty": "Không tìm thấy Hộp Gacha nào phù hợp.",
+      "LandEmpty": "Không tìm thấy Khu đất nào phù hợp.",
+      "MiningToolEmpty": "Không tìm thấy Công cụ khai thác nào phù hợp.",
+      "GeneEmpty": "Không tìm thấy Mã gen nào phù hợp.",
+      "ToolMaterialEmpty": "Không tìm thấy Vật liệu nào phù hợp."
+    }
+  },
+  "Login": {
+    "Description": "Kết nối với ví có sẵn của bạn hoặc tạo ví mới để tham gia thị trường của chúng tôi"
+  },
+  "ModalMetaMaskNotInstall": {
+    "Title": "Ví không được phát hiện",
+    "Description": "Hãy cài đặt ví MetaMask để có trải nghiệm tốt nhất. MetaMask có sẵn trên Chrome, Firefox hoặc Opera. Bạn cần tải xuống "
+  },
+  "ModalMetaMaskNotConnectBSC": {
+    "Title": "Kết nối với mạng BSC",
+    "Description": "Chắc chắn bạn đang kết nối với mạng Binance Smart Chain Mainnet",
+    "SwitchToBSCNetwork": "Chuyển sang mạng BSC"
+  },
+  "SaleSelect": {
+    "ForSale": "Đang Bán",
+    "All": "Tất cả"
+  },
+
+  "WalletAddress": {
+    "MyWallet": "Ví của tôi"
+  },
+
+  "OpenSaleOrderList": {
+    "EmptyList": "Hiện tại không có NFT nào đang được bán",
+    "Header.Order": "Giao dịch",
+    "Header.Quantity": "Số lượng"
+  },
+
+  "Gift": {
+    "GiftButtonLoading": "Đang chuyển",
+    "Title": "Chuyển token",
+    "AvailableForTransfer": "Số lượng có thể chuyển",
+    "Input": {
+      "ReceiveAddress": {
+        "Label": "Địa chỉ ví của người nhận",
+        "Placeholder": "0x0000000...0000",
+        "Error": {
+          "Required": "Vui lòng nhập địa chỉ ví người nhận",
+          "Invalid": "Địa chỉ người nhận không hợp lệ"
+        }
+      },
+      "Token": "Token",
+      "Amount": {
+        "Label": "Số lượng",
+        "Placeholder": "0",
+        "Error": {
+          "Required": "Vui lòng nhập số lượng",
+          "Min": "Số lượng phải lớn hơn hoặc bằng {{min}}",
+          "Max": "Số lượng phải nhỏ hơn hoặc bằng {{max}}"
+        }
+      }
+    },
+    "Button": {
+      "Max": "Tối đa",
+      "GiftNow": "Chuyển ngay"
+    }
+  },
+
+  "TransactionSubmittedModal": {
+    "Title": "Đã gửi giao dịch lên hệ thống",
+    "Description": "Đã gửi giao dịch lên hệ thống",
+    "ViewOn": "Xem trên Bscscan"
+  },
+
+  "Overview": {
+    "TotalSale": "Số lượng bán",
+    "TotalVolume": "Tổng khối lượng",
+    "AveragePrice": "Giá trung bình",
+    "TotalTransaction": "Tổng giao dịch",
+    "Tabs": {
+      "Last24Hours": "24 giờ qua",
+      "Last7days": "7 ngày qua",
+      "Last30days": "30 ngày qua"
+    }
+  },
+  "RecentlyList": {
+    "EmptyList": "Không có dữ liệu",
+    "Title.RecentlyListed": "Mới bán gần đây",
+    "Title.RecentlySold": "Đã bán gần đây",
+    "Header.Owner": "Người bán",
+    "Header.Buyer": "Người mua",
+    "ViewMore": "Xem thêm",
+    "Info.Quantity": "Số lượng: {{quantity}}"
+  },
+
+  "SaleHistoryList": {
+    "EmptyList": "Không có dữ liệu",
+    "Header.Buyer": "Người Mua",
+    "Header.Seller": "Người Bán",
+    "Info.Quantity": "Số lượng: {{quantity}}"
+  },
+
+  "SaleQuantityLabel": {
+    "Hint": "Số lượng đang bán: {{saleQuantity}} / Tổng số lượng: {{totalQuantity}}",
+    "SaleQuantity.Shortened": "SL bán"
+  },
+  "NFTDetailQuantity": {
+    "ForSale": "Số lượng có thể bán",
+    "OnSale": "Số lượng đang bán",
+    "Total": "Tổng số lượng: {{totalQuantity}}"
+  },
+  "FixedPriceSaleNFTSaleInfo": {
+    "CurrentPrice": "Giá bán hiện tại",
+    "Quantity": "Số lượng",
+    "FixedPrice": "Giá cố định: {{fixedPrice}}"
+  }
+}

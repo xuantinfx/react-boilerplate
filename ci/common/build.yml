@@ -1,0 +1,17 @@
+.build:
+  script:
+    # Create Env file
+    - echo "Creating env file from ${ENV_FILE}"
+    - rm ./.env.production || true
+    - cp $ENV_FILE ./.env.production
+
+    - yarn install
+    - unset CI
+    - npm run build
+    - zip -r build.zip build
+
+    # Test Build
+    # - zip build.zip ./.env.production
+  artifacts:
+    paths:
+      - build.zip

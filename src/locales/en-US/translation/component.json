@@ -1,0 +1,223 @@
+{
+  "MyAccountButton": {
+    "LinkButton": "My Account"
+  },
+
+  "Filter": {
+    "Title": "Filter",
+    "SearchText": "Search...",
+    "ClearAll": "Clear All"
+  },
+
+  "Pagination": {
+    "Page": "Page",
+    "Of": "of",
+    "Previous": "Previous page",
+    "Next": "Next page"
+  },
+
+  "MetaMaskConnectButton": {
+    "MainText": "Log in with MetaMask"
+  },
+
+  "UserActivity": {
+    "NoActivity": "No activity found",
+    "Header": {
+      "Time": "Time",
+      "Type": "Type",
+      "Item": "Item",
+      "Action": "Action",
+      "Transaction": "Transaction"
+    },
+    "Label": {
+      "SaleAdded": "Start NFT sale",
+      "SalePriceChanged": "Update new price",
+      "SaleCancel": "Cancel NFT sale",
+      "SaleDone": "Buy NFT item",
+      "Approval": "Approve NFT item to market",
+      "Transfer": "Transfer NFT item(s)",
+      "Unknown": "-"
+    }
+  },
+  "UserActivityList": {
+    "NoActivity": "No activity was found recently"
+  },
+  "NFTDetail": {
+    "OwnedBy": "Owned by",
+    "Section.OpenOrders": "Open Orders",
+    "Section.About": "About",
+    "Section.Attributes": "Attributes",
+    "Section.SaleHistories": "Sale Histories"
+  },
+
+  "BuyButton": {
+    "Buy": "Buy",
+    "BuyNow": "Buy Now"
+  },
+
+  "SellButton": {
+    "Sell": "Sell",
+    "SellNow": "Sell Now"
+  },
+
+  "CancelSellButton": {
+    "Cancel": "Cancel sell",
+    "Canceling": "Canceling",
+    "ConfirmCancelTitle": "Confirm",
+    "ConfirmCancelDescription": "Do you want to cancel this sell?"
+  },
+
+  "UpdateSellPriceButton": {
+    "UpdatePrice": "Change Price",
+    "UpdatingPrice": "Updating"
+  },
+
+  "PlaceOrderModal": {
+    "Title": "Sell Token",
+    "Description": "You'll need to approve {{token}} first in order to proceed.",
+    "AvailableForSale": "Available for sale",
+    "Input": {
+      "Token": "Token",
+      "Price": "Price",
+      "Amount": "Amount"
+    },
+    "Holder": {
+      "Token": "Token name",
+      "Price": "Input your price",
+      "Amount": "Input your amount"
+    },
+    "Error": {
+      "RequiredPrice": "Price is required",
+      "RequiredAmount": "Amount is required",
+      "Price": "Please enter a price greater than 0",
+      "MinPrice": "Please enter a price greater than or equal to {{minPrice}}",
+      "MaxPrice": "Please enter a price less than or equal to {{maxPrice}}",
+      "MinAmount": "Please enter amount greater than or equal to {{min}}",
+      "MaxAmount": "Please enter amount less than or equal to {{max}}"
+    },
+    "Button": {
+      "Max": "Max",
+      "Confirm": "Confirm",
+      "Cancel": "Cancel"
+    }
+  },
+  "PurchaseConfirmationModal": {
+    "Title": "Buy Now",
+    "Description": "You\\'ll need to approve {{token}} first in order to proceed."
+  },
+  "NFTList": {
+    "Message": {
+      "GachaBoxEmpty": "No Gacha Box was found that match those filters.",
+      "LandEmpty": "No Land was found that match those filters.",
+      "MiningToolEmpty": "No Mining Tool was found that match those filters.",
+      "GeneEmpty": "No Gene was found that match those filters.",
+      "ToolMaterialEmpty": "No Tool Material was found that match those filters."
+    }
+  },
+  "Login": {
+    "Description": "Connect with your available wallet or create new wallet to join our marketplace"
+  },
+  "ModalMetaMaskNotInstall": {
+    "Title": "Wallet not detected",
+    "Description": "Please install MetaMask wallet to have the best experience. MetaMask is available on Chrome, Firefox or Opera. You need download it from "
+  },
+  "ModalMetaMaskNotConnectBSC": {
+    "Title": "Connect to BSC network",
+    "Description": "Make sure you are on the Binance Smart Chain Mainnet Network",
+    "SwitchToBSCNetwork": "Switch to BSC Network"
+  },
+
+  "SaleSelect": {
+    "ForSale": "For sale",
+    "All": "All"
+  },
+
+  "WalletAddress": {
+    "MyWallet": "My Wallet"
+  },
+
+  "OpenSaleOrderList": {
+    "EmptyList": "Currently, no NFTs available in store",
+    "Header.Order": "Order",
+    "Header.Quantity": "Quantity"
+  },
+
+  "Gift": {
+    "GiftButtonLoading": "Transferring",
+    "Title": "Transfer",
+    "AvailableForTransfer": "Available for transfer",
+    "Input": {
+      "ReceiveAddress": {
+        "Label": "Receiver's wallet address",
+        "Placeholder": "0x0000000...0000",
+        "Error": {
+          "Required": "Receiver's wallet address is required",
+          "Invalid": "Invalid receiver's wallet address"
+        }
+      },
+      "Token": "Token",
+      "Amount": {
+        "Label": "Amount",
+        "Placeholder": "0",
+        "Error": {
+          "Required": "Amount is required",
+          "Min": "Amount must be greater than or equal to {{min}}",
+          "Max": "Amount must be less than or equal to {{max}}"
+        }
+      }
+    },
+    "Button": {
+      "Max": "Max",
+      "GiftNow": "Transfer Now"
+    }
+  },
+
+  "TransactionSubmittedModal": {
+    "Title": "Transaction Submitted",
+    "Description": "Transaction Submitted",
+    "ViewOn": "View on Bscscan"
+  },
+
+  "Overview": {
+    "TotalSale": "Total Sale",
+    "TotalVolume": "Total Volume",
+    "AveragePrice": "Average Price",
+    "TotalTransaction": "Total Transaction",
+    "Tabs": {
+      "Last24Hours": "Last 24h",
+      "Last7days": "7 days",
+      "Last30days": "30 days"
+    }
+  },
+  "RecentlyList": {
+    "EmptyList": "No data",
+    "Title.RecentlyListed": "Recently Listed",
+    "Title.RecentlySold": "Recently Sold",
+    "Header.Owner": "Owner",
+    "Header.Buyer": "Buyer",
+    "ViewMore": "View More",
+    "Info.Quantity": "Quantity: {{quantity}}"
+  },
+
+  "SaleHistoryList": {
+    "EmptyList": "No data",
+    "Header.Buyer": "Buyer",
+    "Header.Seller": "Seller",
+    "Info.Quantity": "Quantity: {{quantity}}"
+  },
+
+  "SaleQuantityLabel": {
+    "Hint": " Sale Quantity: {{saleQuantity}} / Total Quantity: {{totalQuantity}}",
+    "SaleQuantity.Shortened": "Sale Qty"
+  },
+  "NFTDetailQuantity": {
+    "ForSale": "For sale",
+    "OnSale": "On sale",
+    "Total": "Total quantity: {{totalQuantity}}"
+  },
+  "FixedPriceSaleNFTSaleInfo": {
+    "CurrentPrice": "Current price",
+    "Quantity": "Quantity",
+    "FixedPrice": "Fixed price: {{fixedPrice}}"
+  }
+}

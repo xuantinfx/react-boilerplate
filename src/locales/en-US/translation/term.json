@@ -1,0 +1,62 @@
+{
+  "Gene": "Gene",
+  "Land": "Land",
+  "MiningTool": "Mining Tool",
+  "GachaBox": "Gacha Box",
+  "ToolMaterial": "Tool Material",
+  "UserActivity": "Activity",
+  "Rarity": "Rarity",
+  "MiningPower": "Mining Power",
+  "Cooldown": "Cooldown",
+  "Luck": "Luck Level",
+  "Hybrid": "Hybrid",
+  "Category": "Category",
+  "Type": "Type",
+  "Supply": "Supply",
+  "Supply.Unlimited": "Unlimited",
+
+  "Rarity.Legendary": "Legendary",
+  "Rarity.Epic": "Epic",
+  "Rarity.Rare": "Rare",
+  "Rarity.Uncommon": "Uncommon",
+  "Rarity.Common": "Common",
+
+  "SortType.ID_ASC": "Ascending Index",
+  "SortType.ID_DESC": "Descending Index",
+  "SortType.PRICE_ASC": "Lowest Price",
+  "SortType.PRICE_DESC": "Highest Price",
+  "SortType.NEWEST": "Latest",
+  "SortType.RARITY_ASC": "Lowest Rarity",
+  "SortType.RARITY_DESC": "Highest Rarity",
+  "SortType.DEFAULT": "Default",
+
+  "Auth.LogIn": "Log In",
+
+  "Marketplace": {
+    "FTCToken": "FTC Token",
+    "MiningToolNFTToken": "Mining Tool NFT",
+    "LandNFTToken": "Land NFT",
+    "GeneNFTToken": "Gene NFT",
+    "GachaNFTToken": "Gacha NFT",
+    "ToolMaterialNFTToken": "Tool Material NFT"
+  },
+
+  "Part": "Part",
+  "Part.Body": "Body",
+  "Part.Sub": "Sub",
+  "Part.Head": "Head",
+  "Part.LeftArm": "Left Arm",
+  "Part.RightArm": "Right Arm",
+
+  "GeneClass": "Class",
+  "GeneClass.Generic": "Generic",
+  "GeneClass.Crusader": "Crusader",
+  "GeneClass.Wizard": "Wizard",
+  "GeneClass.Assassin": "Assassin",
+  "GeneClass.Saint": "Saint",
+  "GeneClass.Shaman": "Shaman",
+
+  "Quantity": "Quantity",
+  "Quantity.Shortened": "Qty",
+  "Unknown": "Unknown"
+}
